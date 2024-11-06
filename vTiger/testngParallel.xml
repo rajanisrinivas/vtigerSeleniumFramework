@@ -4,7 +4,7 @@
 <listeners>
   	<listener class-name="com.crm.generic.listenerUtility.ListenerImpClass"></listener>
   </listeners>
-  <test thread-count="5" name="Test" parallel="classes">
+  <test thread-count="5" name="Test" parallel="tests">
     <classes>
       <class name="com.crm.vendorTest.CreateVendorTest"/>
       <class name="com.crm.productTest.CreateProductTest"/>
