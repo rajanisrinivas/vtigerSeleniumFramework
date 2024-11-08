@@ -7,7 +7,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crm.vendorTest.CreateVendorTest"/>
-      <class name="com.crm.productTest.CreateProductTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
