@@ -14,6 +14,7 @@ public class ContactPage {
 	@FindBy(xpath = "//img[@title=\"Create Contact...\"]")
 	private WebElement createContactImg;
 	
+
 	@FindBy(id="bas_searchfield")
 	private WebElement OrgDropDown;
 	
@@ -21,6 +22,15 @@ public class ContactPage {
 	public WebElement getOrgDropDown() {
 		return OrgDropDown;
 	}
+
+	@FindBy(xpath = "//img[@title=\"Create Contact...\"]")
+	private WebElement createContactimg3;
+	
+	
+	public WebElement getCreateContactimg3() {
+		return createContactimg3;
+	}
+
 
 	public WebElement getCreateContactImg() {
 		return createContactImg;
