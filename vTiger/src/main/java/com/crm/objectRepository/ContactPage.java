@@ -24,11 +24,11 @@ public class ContactPage {
 	}
 
 	@FindBy(xpath = "//img[@title=\"Create Contact...\"]")
-	private WebElement createContactimg3;
+	private WebElement createContact3;
 	
 	
 	public WebElement getCreateContactimg3() {
-		return createContactimg3;
+		return createContact3;
 	}
 
 
